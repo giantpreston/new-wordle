@@ -12995,9 +12995,9 @@ async function init() {
 }
 
 async function getDailyWord() {
-  const response = await fetch("https://4755-152-70-212-248.ngrok-free.app/daily-word", {
+  const response = await fetch("https://4755-152-70-212-248.ngrok-free.app/daily-word", { // Change this to your endpoint
     headers: {
-      "ngrok-skip-browser-warning": "Skibidi/2.0"
+      "ngrok-skip-browser-warning": "Skibidi/2.0" // lmao. skips ngrok's browser warning allowing the get request to function properly.
     }
   });
 
