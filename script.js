@@ -12989,7 +12989,7 @@ async function init() {
     targetWord = await getDailyWord();
     startInteraction();
   } catch (error) {
-    showAlert("Failed to load the daily word.");
+    showAlert("Failed to load the daily word.", null);
     console.error(error);
   }
 }
@@ -13198,7 +13198,7 @@ function checkWinLose(guess, tiles) {
 
   const remainingTiles = guessGrid.querySelectorAll(":not([data-letter])");
   if (remainingTiles.length === 0) {
-    showAlert("Correct word: " + targetWord.toUpperCase(), null);
+    showAlert(targetWord.toUpperCase(), null);
     stopInteraction();
   }
 }
