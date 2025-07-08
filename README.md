@@ -16,8 +16,8 @@ A simple Wordle clone with a customizable frontend and a Node.js backend that pr
 ## Project Structure
 
 The project consists of:  
-- Frontend files (HTML, CSS, JS) in /public  
-- Backend server (Node.js/Express) in index.js  
+- Frontend files (HTML, CSS, JS)
+- Backend server (Node.js/Express) in index.js (server subdirectory) 
 - Word database in targetWords.json  
 
 ## Tools Used
